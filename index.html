@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bike Rush</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-shell">
+      <div class="hud">
+        <div class="status-box">
+          <span class="label">Score</span>
+          <span id="score">0</span>
+        </div>
+        <div class="status-box">
+          <span class="label">Best</span>
+          <span id="best">0</span>
+        </div>
+      </div>
+
+      <canvas id="gameCanvas" width="960" height="540" aria-label="Bike game"></canvas>
+
+      <div class="controls-panel">
+        <h1>Bike Rush</h1>
+        <p>Use A/D or ←/→ to move</p>
+        <p>Use W, ↑, or Space to jump</p>
+        <p>Press R to restart</p>
+      </div>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
